@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Snaggle Renewed</name>
+  <author>JMD</author>
+  <packageId>JMD.SnaggleRewnewed</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>
+RENEWED&lt;b&gt;&lt;color=#0094ff&gt;*&lt;/color&gt;&lt;/b&gt; VERSION OF AN OLDER MOD: https://steamcommunity.com/sharedfiles/filedetails/?id=2797302031
+
+&lt;b&gt;&lt;color=#0094ff&gt;*I am not a mod developer and would be fine removing this mod if the original updated or if someone more versed in Rimworld Modding revived this properly; I cannot help fix bugs or add new content, sorry.&lt;/color&gt;&lt;/b&gt;
+
+&lt;b&gt;&lt;color=#BA0000&gt;Original by: Halituis Amaricanous&lt;/color&gt;&lt;/b&gt; so be kind.
+
+V ORIGINAL MOD DESCRIPTION V
+
+Adds &lt;b&gt;&lt;color=#0094ff&gt;Snaggletooth kobolds&lt;/color&gt;&lt;/b&gt; and &lt;b&gt;&lt;color=#0094ff&gt;Snaggle synths&lt;/color&gt;&lt;/b&gt; into rimworld.
+
+
+Snaggletooth Kobolds are a race of intelligent life of scaled creatures descended from original kobolds, but due to natural adaptation and little not no natural predators left the snaggletooth kobolds to become self-sufficient powerhouse, leading them to the far reaches of the industrial era and even close to space. Snaggletooth Kobolds Differ from regular kobolds most notably from their, "heft" allowing them to store nutrients far more efficiently than normal humanoid races as well making them decent with their speed. Don't let their small size fool you because although the snaggletooth kobolds have forgone their tribal ways they can still find Aptitude in overwhelming the enemies with enough persistence.
+
+Snagglesynths are a mechanical synthetic race of kobolds made to replicate the real thing with extreme accuracy. used to supplement normal foot troops these robots are guided as good fighters and are more powerful than your average mechanoid. great care should be given when facing these war machines.
+</description>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+</ModMetaData>

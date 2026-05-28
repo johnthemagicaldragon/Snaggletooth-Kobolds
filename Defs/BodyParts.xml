@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <BodyPartDef>
+    <defName>horn</defName>
+    <label>SnaggleHorn</label>
+    <hitPoints>10</hitPoints>
+	<bleedRate>0</bleedRate>
+    <destroyableByDamage>true</destroyableByDamage>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>false</beautyRelated>
+    <solid>true</solid>	
+  </BodyPartDef>
+
+
+<BodyPartDef>
+    <defName>tail</defName>
+    <label>SnaggleTail</label>
+    <hitPoints>10</hitPoints>
+	<bleedRate>0</bleedRate>
+    <destroyableByDamage>true</destroyableByDamage>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>false</beautyRelated>
+    <solid>true</solid>	
+  </BodyPartDef>
+
+
+</Defs>

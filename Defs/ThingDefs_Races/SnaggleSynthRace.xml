@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+		<defName>Pawn_SnaggleSynth</defName>
+		<label>SnaggleSynth</label>    
+		<description>The SnagleSynth is a bipedal Symbiotic Organic/Robot Synth embedded within the Artificial Housing of its kobold Masters, Being made from much more sturdy materials than kobolds themselves it is not out of the ordinary to find these Robots as the Guards and attack forces for more lazy kobolds, whether they are remote-controlled or Installed with an onboard persona is unknown.</description>
+
+		<alienRace>
+			<generalSettings>
+				<allowHumanBios>false</allowHumanBios>
+				<maleGenderProbability>0.5</maleGenderProbability>
+				<immuneToAge>true</immuneToAge>
+				<humanRecipeImport>true</humanRecipeImport>
+				<chemicalSettings />
+				<factionRelations />
+				<notXenophobistTowards />
+				<immuneToXenophobia>true</immuneToXenophobia>
+				<minAgeForAdulthood>3</minAgeForAdulthood>
+
+				
+				<alienPartGenerator>
+						<headTypes Inherit="False">
+						<li>Male_AverageNormal</li>
+  <li>Female_AverageNormal</li>
+						</headTypes>
+							<bodyTypes>
+								<li>Hulk</li>
+							</bodyTypes>
+						<bodyAddons>
+							<!-- Left HORNS -->
+							<li>
+							<shaderType>Transparent</shaderType><alignWithHead>true</alignWithHead>
+							<drawSize>1</drawSize><name>Left Horn</name>
+							<path>Things/SnaggleSynth/Horns/Left reseptor</path>
+							<conditions><Apparel><hiddenUnderApparelFor><li>FullHead</li>
+								<li>UpperHead</li>
+							</hiddenUnderApparelFor></Apparel><BodyPart><bodyPart>horn</bodyPart><bodyPartLabel>SnaggleHorn</bodyPartLabel></BodyPart><Posture><drawnInBed>true</drawnInBed></Posture></conditions>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<defaultOffset>Tail</defaultOffset>
+							<offsets>
+								<south>
+								<layerOffset>-0.3257127</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.4158629,0.5659164)</Hulk>
+									</bodyTypes>
+								</south>
+								<north>
+								<layerOffset>-0.2699779</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.01714951,0.8917472)</Hulk>
+									</bodyTypes>
+								</north>
+								<east>
+								<layerOffset>-0.3257127</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.5316181,0.565916)</Hulk>
+									</bodyTypes>
+								</east>
+							</offsets>
+							</li>
+							<!-- Right HORNS -->
+							<li>
+							<shaderType>Transparent</shaderType><alignWithHead>true</alignWithHead>
+							<drawSize>1</drawSize><name>Right Horn</name>
+							<path>Things/SnaggleSynth/Horns/Right reseptor</path>
+							<conditions><Apparel><hiddenUnderApparelFor><li>FullHead</li>
+								<li>UpperHead</li>
+							</hiddenUnderApparelFor></Apparel><BodyPart><bodyPart>horn</bodyPart><bodyPartLabel>SnaggleHorn</bodyPartLabel></BodyPart><Posture><drawnInBed>true</drawnInBed></Posture></conditions>
+
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<defaultOffset>Tail</defaultOffset>
+							<offsets>
+								<south>
+								<layerOffset>-0.3257127</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.4158629,0.5659164)</Hulk>
+									</bodyTypes>
+								</south>
+								<north>
+								<layerOffset>-0.2699779</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.01714951,0.8917472)</Hulk>
+									</bodyTypes>
+								</north>
+								<east>
+								<layerOffset>-0.3257127</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.5316181,0.565916)</Hulk>
+									</bodyTypes>
+								</east>
+							</offsets>
+							</li>
+							<!-- Bodypaint -->
+							<li>
+							<conditions><BodyPart><bodyPart>Torso</bodyPart></BodyPart><Posture><drawnInBed>false</drawnInBed></Posture></conditions><name>Torso</name>
+							<shaderType>Transparent</shaderType>
+							<path>Things/SnaggleSynth/bodytattoo/Bodylines</path>
+							<drawSize>1</drawSize>
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerInvert>false</layerInvert>
+							<defaultOffset>Tail</defaultOffset>
+							<colorChannel>Eyes</colorChannel>
+							<offsets>
+								<south>
+								<layerOffset>-0.288952</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.42,0.2)</Hulk>
+									</bodyTypes>
+								</south>
+								<north>
+								<layerOffset>-0.288952</layerOffset>
+									<bodyTypes>
+										<Hulk>(0,0.55)</Hulk>
+									</bodyTypes>
+								</north>
+								<east>
+								<layerOffset>-0.288952</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.408,0.18)</Hulk>
+									</bodyTypes>
+								</east>
+							</offsets>
+							</li>
+							<!--TAIL-->
+							<li>
+									<shaderType>Transparent</shaderType><name>Tail</name>
+									<drawSize>1</drawSize><name>Tail</name>
+									<path>Things/SnaggleSynth/Tail/Tail</path>
+									<conditions><BodyPart><bodyPart>Tail</bodyPart><bodyPartLabel>SnaggleTail</bodyPartLabel></BodyPart><Posture>									<drawnInBed>false</drawnInBed></Posture></conditions>
+									<inFrontOfBody>true</inFrontOfBody>
+									<colorChannel>skin</colorChannel>
+									<defaultOffset>Tail</defaultOffset>
+									<offsets>
+								<south>
+								<layerOffset>-0.3301178</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.42,0.2)</Hulk>
+									</bodyTypes>
+								</south>
+								<north>
+								<layerOffset>-0.3301178</layerOffset>
+									<bodyTypes>
+										<Hulk>(0,0.55)</Hulk>
+									</bodyTypes>
+								</north>
+								<east>
+								<layerOffset>-0.244373</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.3472665,0.1329044)</Hulk>
+									</bodyTypes>
+								</east>
+							</offsets>
+							</li>
+							<!--RIGHT EYE-->
+						<li>
+						<drawSize>1</drawSize><name>Right Eye</name>
+							<path>Things/SnaggleSynth/Eyes/righteye</path>
+							<conditions><BodyPart><bodyPart>Eye</bodyPart></BodyPart><Posture><drawnInBed>true</drawnInBed></Posture></conditions>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>Eyes</colorChannel>
+							<shaderType>Transparent</shaderType>
+							<defaultOffset>Tail</defaultOffset>
+							<offsets>
+								<south>
+									<layerOffset>-0.2742661</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.42,0.572)</Hulk>
+									</bodyTypes>
+								</south>
+								<north>
+									<layerOffset>-0.2742661</layerOffset>
+									<bodyTypes>
+										<Hulk>(0,0.90)</Hulk>
+									</bodyTypes>
+								</north>
+								<east>
+									<layerOffset>-0.2742661</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.6614895,0.56)</Hulk>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
+						<!--LEFT EYE-->
+						<li>
+							<drawSize>1</drawSize>
+							<path>Things/SnaggleSynth/Eyes/lefteye</path><name>Left Eye</name>
+							<conditions><BodyPart><bodyPart>Eye</bodyPart></BodyPart><Posture><drawnInBed>true</drawnInBed></Posture></conditions>
+<shaderType>Transparent</shaderType>
+							<inFrontOfBody>true</inFrontOfBody>
+							<colorChannel>Eyes</colorChannel>
+							<defaultOffset>Tail</defaultOffset>
+							<offsets>
+								<south>
+									<layerOffset>-0.2742661</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.42,0.572)</Hulk>
+									</bodyTypes>
+								</south>
+								<north>
+									<layerOffset>-0.2742661</layerOffset>
+									<bodyTypes>
+										<Hulk>(0,0.90)</Hulk>
+									</bodyTypes>
+								</north>
+								<east>
+									<layerOffset>-0.2742661</layerOffset>
+									<bodyTypes>
+										<Hulk>(-0.6614895,0.56)</Hulk>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
+						</bodyAddons>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!-- Dark -->
+									<li>
+										<weight>10</weight>
+										<only>RGBA(51,0,51,255)</only>
+									</li>
+									<!-- Grey -->
+									<li>
+										<weight>10</weight>
+										<only>RGBA(102,102,102,255)</only>
+									</li>
+									<!-- Darker -->
+									<li>
+										<weight>10</weight>
+										<only>RGBA(102,51,51,255)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+							<!--EYE COLOR-->
+						<li>
+						<name>Eyes</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!--Pink-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(204,102,153,255)</only>
+									</li>
+									<!--Blue-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(0,153,255,255)</only>
+									</li>
+									<!--Yellow-->
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,153,51,255)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<!--Horn color-->
+						<li>
+							<name>Horn</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(1,1,1,255)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+					
+				</alienPartGenerator>
+			</generalSettings>
+			<graphicPaths>
+    <body>
+        <path>Things/Pawn/Humanlike/Bodies/Naked_Male</path>
+    </body>
+    <head>
+        <path>Things/Pawn/Humanlike/Heads/Average_Male</path>
+    </head>
+</graphicPaths>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+		</alienRace>
+		
+		
+		<statBases>
+			<Mass>50</Mass>
+			<MarketValue>15000</MarketValue>
+			<Flammability>0</Flammability>
+			<CarryingCapacity>75</CarryingCapacity>
+			<MoveSpeed>4.8</MoveSpeed>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<Nutrition>0</Nutrition>
+			<PsychicSensitivity>0.5</PsychicSensitivity>
+			<ToxicResistance>1.0</ToxicResistance>
+			<RestRateMultiplier>2.0</RestRateMultiplier>
+			<ImmunityGainSpeed>10</ImmunityGainSpeed>
+			<ArmorRating_Heat>2</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.27</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+		</statBases>
+		
+		<butcherProducts>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Plasteel>10</Plasteel>
+      <Steel>20</Steel>
+    </butcherProducts>
+		
+		<tools>
+			<li>
+				<label>left claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>7.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>SynthHead</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>    
+		<race>
+			<nameGenerator>SnagglesynthNameGen</nameGenerator>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<baseBodySize>1</baseBodySize>
+			<lifeExpectancy>190</lifeExpectancy>
+			<leatherDef>Plasteel</leatherDef>
+			<body>Pawn_Snagglesynth</body>
+			<baseHealthScale>2.75</baseHealthScale>
+			<baseHungerRate>0</baseHungerRate>
+			<foodType>None</foodType>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+			<li>
+			<def>Life_SnaggleSynth</def>
+			<minAge>0</minAge>
+			<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+			<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+			<soundCall>Pawn_Mech_Scyther_Call</soundCall>
+			</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<ageGenerationCurve>
+				<points>
+					<li>(18,0)</li>
+					<li>(19,100)</li>
+					<li>(50,100)</li>
+					<li>(60,30)</li>
+					<li>(70,18)</li>
+					<li>(80,10)</li>
+					<li>(90,3)</li>
+					<li>(100,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+				<li>Human</li>
+			</hediffGiverSets><renderTree>Humanlike</renderTree>
+		</race>
+	</AlienRace.ThingDef_AlienRace>
+</Defs>
