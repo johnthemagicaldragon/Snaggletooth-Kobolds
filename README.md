@@ -8,19 +8,19 @@ Do note that I don't intend on making this a daily pattern forever, I am just wo
 
 ------------------------------------------------------------------------------------
 
-CURRENT PROGRESS SUMMARY (Day 4):
+CURRENT PROGRESS SUMMARY (Day 5):
 
 Previously Fixed / Added:
 
 - Startup Errors (Days 1-3)
 - Github Page (Day 3)
+- Rendering nullReferenceException involving synths (Day 4)
 
 Fixed: 
-- Rendering breaking*
-  *as in the nullReferenceException involving the synths.
+- West being flipped
 
 Current task(s) remaining:
 
-- Figure out why West -> East graphics
 - Body Addons DNE
 - Remove the Spaghetti structure from the files I had to change
+- Return the snaggletooth heads (TBD when SnaggleSynths are rendering properly)
