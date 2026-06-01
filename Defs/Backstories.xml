@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>SnaggleSynthBackstory_A</defName>
+    <title>Advanced Military Servant</title>
+    <titleShort>Military Servant</titleShort>
+    <description>This Unit has served Its entire life as the backbone to a wealthy entrepreneurs private army, Teaching itself new Skills on how to survive Deadly Fights that would be commonplace under combat conditions.</description>
+    <slot>Childhood</slot>
+	<bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <spawnCategories>
+      <li>SnaggleSynthBackstory_Child</li>
+    </spawnCategories>
+	    <bioAgeRange>
+        <min>0</min>
+        <max>999</max>
+		</bioAgeRange>	
+    <chronoAgeRange>
+        <min>0</min>
+        <max>999</max>
+    </chronoAgeRange>	
+    <workDisables>
+      <li>Commoner</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>8</Shooting>
+      <Melee>9</Melee>
+    </skillGains>
+    <shuffleable>
+      true
+    </shuffleable>
+  </AlienRace.AlienBackstoryDef>
+  
+    <AlienRace.AlienBackstoryDef>
+    <defName>SnaggleSynthBackstory_B</defName>
+    <title>Synthetic Commando</title>
+    <titleShort>Commando</titleShort>
+    <description>Part of a Clone Army’s Gene tailoring Protocol, This unit has Extensive Synth training to command other Low ranking Synth troopers.</description>
+    <slot>Childhood</slot>
+	<bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <spawnCategories>
+      <li>SnaggleSynthBackstory_Child</li>
+    </spawnCategories>
+	    <bioAgeRange>
+        <min>0</min>
+        <max>999</max>
+		</bioAgeRange>	
+    <chronoAgeRange>
+        <min>0</min>
+        <max>999</max>
+    </chronoAgeRange>	
+    <workDisables>
+      <li>Commoner</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>18</Shooting>
+      <Melee>11</Melee>
+    </skillGains>
+    <shuffleable>
+      true
+    </shuffleable>
+  </AlienRace.AlienBackstoryDef>
+  
+    <AlienRace.AlienBackstoryDef>
+    <defName>SnaggleSynthBackstory_C</defName>
+    <title>Faulty Commando</title>
+    <titleShort>Commando</titleShort>
+    <description>During This units Training to be a Synth Commando, a fault had accidentally Removed a critical data disk at the wrong time making the unit incredibly faulty in regards to leadership ability, Unfortunately for the Unit it was too much effort for the production company to Re-write the data and just deployed it anyway.</description>
+    <slot>Childhood</slot>
+	<bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <spawnCategories>
+      <li>SnaggleSynthBackstory_Child</li>
+    </spawnCategories>
+	    <bioAgeRange>
+        <min>0</min>
+        <max>999</max>
+		</bioAgeRange>	
+    <chronoAgeRange>
+        <min>0</min>
+        <max>999</max>
+    </chronoAgeRange>	
+    <workDisables>
+      <li>Commoner</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>-4</Shooting>
+      <Melee>-3</Melee>
+    </skillGains>
+    <shuffleable>
+      true
+    </shuffleable>
+  </AlienRace.AlienBackstoryDef>
+
+  <AlienRace.AlienBackstoryDef>
+    <defName>SnaggleSynthBackstory_D</defName>
+    <title>Synth Kobold</title>
+    <titleShort>Synth</titleShort>
+    <description>This Longer running version of the Synthetic kobolds has lived with other living forms for most of its life making it much more comfortable with living with them.</description>
+    <slot>Adulthood</slot>
+	<bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+    <spawnCategories>
+      <li>SnaggleSynthBackstory_Adult</li>
+    </spawnCategories>
+	<bioAgeRange>
+        <min>16</min>
+        <max>999</max>
+    </bioAgeRange>
+    <chronoAgeRange>
+        <min>16</min>
+        <max>999</max>
+    </chronoAgeRange>	
+    <skillGains>
+      <Shooting>-3</Shooting>
+      <Melee>-3</Melee>
+    </skillGains>
+    <shuffleable>
+      true
+    </shuffleable>
+  </AlienRace.AlienBackstoryDef>
+
+</Defs>

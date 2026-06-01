@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <BodyPartGroupDef>
+    <defName>SnaggletoothHorn</defName>
+    <label>horn</label>
+  </BodyPartGroupDef>
+
+  <BodyPartDef Name="SnaggletoothHorn">
+    <defName>SnaggletoothHorn</defName>
+    <label>horn</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0.0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.05</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  
+    <BodyPartGroupDef>
+    <defName>SnaggletoothFins</defName>
+    <label>horn</label>
+  </BodyPartGroupDef>
+
+  <BodyPartDef Name="SnaggletoothFins">
+    <defName>SnaggletoothFins</defName>
+    <label>fins</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0.0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0.05</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+
+</Defs>
