@@ -22,9 +22,9 @@ Previously Fixed / Added:
 - West being flipped (Day 5)
 
 Fixed: 
-- Body Addons DNE
-- Remove (most of) the Spaghetti structure from the files I had to change (I likely missed some)
-- Return the snaggletooth heads (TBD when SnaggleSynths are rendering properly)
+- Body Addons not rendering
+- Removed (most of) the Spaghetti structure from the files I had to change (I likely missed some)
+- Snaggletooth Heads
 
 Current task(s) remaining:
 - Currently? None.
