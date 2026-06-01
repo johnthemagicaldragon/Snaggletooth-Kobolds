@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>Synthbold_Female</defName>
+        <graphicPath>Things/SnaggleSynth/Head/Female_Normal</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+    
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>Synthbold_Male</defName>
+        <graphicPath>Things/SnaggleSynth/Head/Male_Normal</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+    
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>Snaggle_Female</defName>
+        <graphicPath>Things/Snaggletooth/Head/Female_HeadStandard</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+    
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>Snaggle_Male</defName>
+        <graphicPath>Things/Snaggletooth/Head/Male_HeadStandard</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+</Defs>

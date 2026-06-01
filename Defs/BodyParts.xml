@@ -3,7 +3,7 @@
 <Defs>
 
   <BodyPartDef>
-    <defName>horn</defName>
+    <defName>SnaggleHorn</defName>
     <label>SnaggleHorn</label>
     <hitPoints>10</hitPoints>
 	<bleedRate>0</bleedRate>
@@ -13,9 +13,8 @@
     <solid>true</solid>	
   </BodyPartDef>
 
-
-<BodyPartDef>
-    <defName>tail</defName>
+  <BodyPartDef>
+    <defName>SnaggleTail</defName>
     <label>SnaggleTail</label>
     <hitPoints>10</hitPoints>
 	<bleedRate>0</bleedRate>
@@ -25,5 +24,15 @@
     <solid>true</solid>	
   </BodyPartDef>
 
+  <BodyPartDef>
+    <defName>SnaggleFins</defName>
+    <label>SnaggleFin</label>
+    <hitPoints>10</hitPoints>
+	<bleedRate>0</bleedRate>
+    <destroyableByDamage>true</destroyableByDamage>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>false</beautyRelated>
+    <solid>true</solid>	
+  </BodyPartDef>
 
 </Defs>

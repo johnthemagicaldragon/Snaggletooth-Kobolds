@@ -1,4 +1,8 @@
-GITHUB UP-TO-DATE STATUS: 🟥 (I will push the updates to the github and onto the workshop when restoration is finished)
+GITHUB UP-TO-DATE STATUS: 🟩
+
+Green: Main is up to date!
+Yellow: Final prepwork being done, push will occur when finished
+Red: Main is currently behind Staging/Development
 
 Hi! Thanks for visiting my Github (or the file structure, either works)
 
@@ -8,19 +12,19 @@ Do note that I don't intend on making this a daily pattern forever, I am just wo
 
 ------------------------------------------------------------------------------------
 
-CURRENT PROGRESS SUMMARY (Day 5):
+CURRENT PROGRESS SUMMARY (Day 6):
 
 Previously Fixed / Added:
 
 - Startup Errors (Days 1-3)
 - Github Page (Day 3)
 - Rendering nullReferenceException involving synths (Day 4)
+- West being flipped (Day 5)
 
 Fixed: 
-- West being flipped
+- Body Addons DNE
+- Remove (most of) the Spaghetti structure from the files I had to change (I likely missed some)
+- Return the snaggletooth heads (TBD when SnaggleSynths are rendering properly)
 
 Current task(s) remaining:
-
-- Body Addons DNE
-- Remove the Spaghetti structure from the files I had to change
-- Return the snaggletooth heads (TBD when SnaggleSynths are rendering properly)
+- Currently? None.

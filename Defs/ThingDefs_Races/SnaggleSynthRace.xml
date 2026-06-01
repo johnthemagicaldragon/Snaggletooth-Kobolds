@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
 		<defName>Pawn_SnaggleSynth</defName>
@@ -16,119 +16,164 @@
 				<notXenophobistTowards />
 				<immuneToXenophobia>true</immuneToXenophobia>
 				<minAgeForAdulthood>3</minAgeForAdulthood>
-
 				
 				<alienPartGenerator>
-						<headTypes Inherit="False">
-						<li>Male_AverageNormal</li>
-  <li>Female_AverageNormal</li>
+						<headTypes Inherit="false">
+							<li>Synthbold_Female</li>
+							<li>Synthbold_Male</li>
 						</headTypes>
-							<bodyTypes>
-								<li>Hulk</li>
-							</bodyTypes>
+						<bodyTypes>
+							<li>Hulk</li>
+						</bodyTypes>
 						<bodyAddons>
 							<!-- Left HORNS -->
 							<li>
-							<shaderType>Transparent</shaderType><alignWithHead>true</alignWithHead>
-							<drawSize>1</drawSize><name>Left Horn</name>
-							<path>Things/SnaggleSynth/Horns/Left reseptor</path>
-							<conditions><Apparel><hiddenUnderApparelFor><li>FullHead</li>
-								<li>UpperHead</li>
-							</hiddenUnderApparelFor></Apparel><BodyPart><bodyPart>horn</bodyPart><bodyPartLabel>SnaggleHorn</bodyPartLabel></BodyPart><Posture><drawnInBed>true</drawnInBed></Posture></conditions>
-							<inFrontOfBody>false</inFrontOfBody>
-							<colorChannel>skin</colorChannel>
-							<defaultOffset>Tail</defaultOffset>
-							<offsets>
-								<south>
-								<layerOffset>-0.3257127</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.4158629,0.5659164)</Hulk>
-									</bodyTypes>
-								</south>
-								<north>
-								<layerOffset>-0.2699779</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.01714951,0.8917472)</Hulk>
-									</bodyTypes>
-								</north>
-								<east>
-								<layerOffset>-0.3257127</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.5316181,0.565916)</Hulk>
-									</bodyTypes>
-								</east>
-							</offsets>
+								<shaderType>Transparent</shaderType>
+								<drawSize>1</drawSize><name>Left Horn</name>
+								<path>Things/SnaggleSynth/Horns/Left reseptor</path>
+								<conditions>
+									<Apparel>
+										<hiddenUnderApparelFor>
+											<li>FullHead</li>
+											<li>UpperHead</li>
+										</hiddenUnderApparelFor>
+									</Apparel>
+									<BodyPart>
+										<bodyPart>SnaggletoothHorn</bodyPart>
+									</BodyPart>
+									<Posture>
+										<drawnInBed>true</drawnInBed>
+										<drawnStanding>true</drawnStanding>
+										<drawnLaying>true</drawnLaying>
+									</Posture>
+								</conditions>
+								<inFrontOfBody>true</inFrontOfBody>
+								<colorChannel>skin</colorChannel>
+								<defaultOffset>Tail</defaultOffset>
+								<offsets>
+									<south>
+									<layerOffset>-0.3257127</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.4158629,0.5659164)</Hulk>
+										</bodyTypes>
+									</south>
+									<north>
+									<layerOffset>-0.2699779</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.01714951,0.8917472)</Hulk>
+										</bodyTypes>
+									</north>
+									<east>
+									<layerOffset>-0.3257127</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.5316181,0.565916)</Hulk>
+										</bodyTypes>
+									</east>
+								</offsets>
 							</li>
 							<!-- Right HORNS -->
 							<li>
-							<shaderType>Transparent</shaderType><alignWithHead>true</alignWithHead>
-							<drawSize>1</drawSize><name>Right Horn</name>
-							<path>Things/SnaggleSynth/Horns/Right reseptor</path>
-							<conditions><Apparel><hiddenUnderApparelFor><li>FullHead</li>
-								<li>UpperHead</li>
-							</hiddenUnderApparelFor></Apparel><BodyPart><bodyPart>horn</bodyPart><bodyPartLabel>SnaggleHorn</bodyPartLabel></BodyPart><Posture><drawnInBed>true</drawnInBed></Posture></conditions>
-
-							<inFrontOfBody>false</inFrontOfBody>
-							<colorChannel>skin</colorChannel>
-							<defaultOffset>Tail</defaultOffset>
-							<offsets>
-								<south>
-								<layerOffset>-0.3257127</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.4158629,0.5659164)</Hulk>
-									</bodyTypes>
-								</south>
-								<north>
-								<layerOffset>-0.2699779</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.01714951,0.8917472)</Hulk>
-									</bodyTypes>
-								</north>
-								<east>
-								<layerOffset>-0.3257127</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.5316181,0.565916)</Hulk>
-									</bodyTypes>
-								</east>
-							</offsets>
+								<shaderType>Transparent</shaderType>
+								<drawSize>1</drawSize>
+								<name>Right Horn</name>
+								<path>Things/SnaggleSynth/Horns/Right reseptor</path>
+								<conditions>
+									<Apparel>
+										<hiddenUnderApparelFor>
+											<li>FullHead</li>
+											<li>UpperHead</li>
+										</hiddenUnderApparelFor>
+									</Apparel>
+									<BodyPart>
+										<bodyPart>SnaggletoothHorn</bodyPart>
+									</BodyPart>
+									<Posture>
+										<drawnInBed>true</drawnInBed>
+										<drawnStanding>true</drawnStanding>
+										<drawnLaying>true</drawnLaying>
+									</Posture>
+								</conditions>
+								<inFrontOfBody>true</inFrontOfBody>
+								<colorChannel>skin</colorChannel>
+								<defaultOffset>Tail</defaultOffset>
+								<offsets>
+									<south>
+									<layerOffset>-0.3257127</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.4158629,0.5659164)</Hulk>
+										</bodyTypes>
+									</south>
+									<north>
+									<layerOffset>-0.2699779</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.01714951,0.8917472)</Hulk>
+										</bodyTypes>
+									</north>
+									<east>
+									<layerOffset>-0.3257127</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.5316181,0.565916)</Hulk>
+										</bodyTypes>
+									</east>
+								</offsets>
 							</li>
 							<!-- Bodypaint -->
 							<li>
-							<conditions><BodyPart><bodyPart>Torso</bodyPart></BodyPart><Posture><drawnInBed>false</drawnInBed></Posture></conditions><name>Torso</name>
-							<shaderType>Transparent</shaderType>
-							<path>Things/SnaggleSynth/bodytattoo/Bodylines</path>
-							<drawSize>1</drawSize>
-							<inFrontOfBody>true</inFrontOfBody>
-							<layerInvert>false</layerInvert>
-							<defaultOffset>Tail</defaultOffset>
-							<colorChannel>Eyes</colorChannel>
-							<offsets>
-								<south>
-								<layerOffset>-0.288952</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.42,0.2)</Hulk>
-									</bodyTypes>
-								</south>
-								<north>
-								<layerOffset>-0.288952</layerOffset>
-									<bodyTypes>
-										<Hulk>(0,0.55)</Hulk>
-									</bodyTypes>
-								</north>
-								<east>
-								<layerOffset>-0.288952</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.408,0.18)</Hulk>
-									</bodyTypes>
-								</east>
-							</offsets>
+								<conditions>
+									<BodyPart>
+										<bodyPart>Torso</bodyPart>
+									</BodyPart>
+									<Posture>
+										<drawnInBed>true</drawnInBed>
+										<drawnStanding>true</drawnStanding>
+										<drawnLaying>true</drawnLaying>
+									</Posture>
+								</conditions>
+								<name>Torso</name>
+								<shaderType>Transparent</shaderType>
+								<path>Things/SnaggleSynth/bodytattoo/Bodylines</path>
+								<drawSize>1</drawSize>
+								<inFrontOfBody>true</inFrontOfBody>
+								<layerInvert>false</layerInvert>
+								<defaultOffset>Tail</defaultOffset>
+								<colorChannel>Eyes</colorChannel>
+								<offsets>
+									<south>
+										<layerOffset>-0.288952</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.42,0.2)</Hulk>
+										</bodyTypes>
+									</south>
+									<north>
+									<layerOffset>-0.288952</layerOffset>
+										<bodyTypes>
+											<Hulk>(0,0.55)</Hulk>
+										</bodyTypes>
+									</north>
+									<east>
+									<layerOffset>-0.288952</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.408,0.18)</Hulk>
+										</bodyTypes>
+									</east>
+								</offsets>
 							</li>
 							<!--TAIL-->
 							<li>
-									<shaderType>Transparent</shaderType><name>Tail</name>
-									<drawSize>1</drawSize><name>Tail</name>
-									<path>Things/SnaggleSynth/Tail/Tail</path>
-									<conditions><BodyPart><bodyPart>Tail</bodyPart><bodyPartLabel>SnaggleTail</bodyPartLabel></BodyPart><Posture>									<drawnInBed>false</drawnInBed></Posture></conditions>
+								<shaderType>Transparent</shaderType>
+								<drawSize>1</drawSize>
+								<name>Tail</name>
+								<path>Things/SnaggleSynth/Tail/Tail</path>
+								<conditions>
+									<BodyPart>
+										<bodyPart>Tail</bodyPart>
+									</BodyPart>
+									<Posture>
+										<drawnInBed>true</drawnInBed>
+										<drawnStanding>true</drawnStanding>
+										<drawnLaying>true</drawnLaying>
+									</Posture>
+								</conditions>
 									<inFrontOfBody>true</inFrontOfBody>
 									<colorChannel>skin</colorChannel>
 									<defaultOffset>Tail</defaultOffset>
@@ -154,65 +199,84 @@
 							</offsets>
 							</li>
 							<!--RIGHT EYE-->
-						<li>
-						<drawSize>1</drawSize><name>Right Eye</name>
-							<path>Things/SnaggleSynth/Eyes/righteye</path>
-							<conditions><BodyPart><bodyPart>Eye</bodyPart></BodyPart><Posture><drawnInBed>true</drawnInBed></Posture></conditions>
-							<inFrontOfBody>true</inFrontOfBody>
-							<colorChannel>Eyes</colorChannel>
-							<shaderType>Transparent</shaderType>
-							<defaultOffset>Tail</defaultOffset>
-							<offsets>
-								<south>
-									<layerOffset>-0.2742661</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.42,0.572)</Hulk>
-									</bodyTypes>
-								</south>
-								<north>
-									<layerOffset>-0.2742661</layerOffset>
-									<bodyTypes>
-										<Hulk>(0,0.90)</Hulk>
-									</bodyTypes>
-								</north>
-								<east>
-									<layerOffset>-0.2742661</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.6614895,0.56)</Hulk>
-									</bodyTypes>
-								</east>
-							</offsets>
-						</li>
-						<!--LEFT EYE-->
-						<li>
-							<drawSize>1</drawSize>
-							<path>Things/SnaggleSynth/Eyes/lefteye</path><name>Left Eye</name>
-							<conditions><BodyPart><bodyPart>Eye</bodyPart></BodyPart><Posture><drawnInBed>true</drawnInBed></Posture></conditions>
-<shaderType>Transparent</shaderType>
-							<inFrontOfBody>true</inFrontOfBody>
-							<colorChannel>Eyes</colorChannel>
-							<defaultOffset>Tail</defaultOffset>
-							<offsets>
-								<south>
-									<layerOffset>-0.2742661</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.42,0.572)</Hulk>
-									</bodyTypes>
-								</south>
-								<north>
-									<layerOffset>-0.2742661</layerOffset>
-									<bodyTypes>
-										<Hulk>(0,0.90)</Hulk>
-									</bodyTypes>
-								</north>
-								<east>
-									<layerOffset>-0.2742661</layerOffset>
-									<bodyTypes>
-										<Hulk>(-0.6614895,0.56)</Hulk>
-									</bodyTypes>
-								</east>
-							</offsets>
-						</li>
+							<li>
+								<drawSize>1</drawSize>
+								<path>Things/SnaggleSynth/Eyes/righteye</path>
+								<conditions>
+									<BodyPart>
+										<bodyPart>Eye</bodyPart>
+									</BodyPart>
+									<Posture>
+										<drawnInBed>true</drawnInBed>
+											<drawnStanding>true</drawnStanding>
+											<drawnLaying>true</drawnLaying>
+									</Posture>
+								</conditions>
+								<inFrontOfBody>true</inFrontOfBody>
+								<colorChannel>Eyes</colorChannel>
+								<shaderType>Transparent</shaderType>
+								<defaultOffset>Tail</defaultOffset>
+								<offsets>
+									<south>
+										<layerOffset>-0.2742661</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.42,0.572)</Hulk>
+										</bodyTypes>
+									</south>
+									<north>
+										<layerOffset>-0.2742661</layerOffset>
+										<bodyTypes>
+											<Hulk>(0,0.90)</Hulk>
+										</bodyTypes>
+									</north>
+									<east>
+										<layerOffset>-0.2742661</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.6614895,0.56)</Hulk>
+										</bodyTypes>
+									</east>
+								</offsets>
+							</li>
+							<!--LEFT EYE-->
+							<li>
+								<drawSize>1</drawSize>
+								<path>Things/SnaggleSynth/Eyes/lefteye</path>
+								<name>Left Eye</name>
+								<conditions>
+									<BodyPart>
+										<bodyPart>Eye</bodyPart>
+									</BodyPart>
+									<Posture>
+										<drawnInBed>true</drawnInBed>
+										<drawnStanding>true</drawnStanding>
+										<drawnLaying>true</drawnLaying>
+									</Posture>
+								</conditions>
+								<shaderType>Transparent</shaderType>
+								<inFrontOfBody>true</inFrontOfBody>
+								<colorChannel>Eyes</colorChannel>
+								<defaultOffset>Tail</defaultOffset>
+								<offsets>
+									<south>
+										<layerOffset>-0.2742661</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.42,0.572)</Hulk>
+										</bodyTypes>
+									</south>
+									<north>
+										<layerOffset>-0.2742661</layerOffset>
+										<bodyTypes>
+											<Hulk>(0,0.90)</Hulk>
+										</bodyTypes>
+									</north>
+									<east>
+										<layerOffset>-0.2742661</layerOffset>
+										<bodyTypes>
+											<Hulk>(-0.6614895,0.56)</Hulk>
+										</bodyTypes>
+									</east>
+								</offsets>
+							</li>
 						</bodyAddons>
 					<colorChannels>
 						<li>
@@ -277,13 +341,13 @@
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths>
-    <body>
-        <path>Things/Pawn/Humanlike/Bodies/Naked_Male</path>
-    </body>
-    <head>
-        <path>Things/Pawn/Humanlike/Heads/Average_Male</path>
-    </head>
-</graphicPaths>
+				<body>
+					<path>Things/SnaggleSynth/Body/</path>
+				</body>
+				<head>
+					<path>Things/SnaggleSynth/Head/</path>
+				</head>
+			</graphicPaths>
 			<styleSettings>
 				<li>
 					<key>HairDef</key>
@@ -328,10 +392,10 @@
 		</statBases>
 		
 		<butcherProducts>
-      <ComponentIndustrial>2</ComponentIndustrial>
-      <Plasteel>10</Plasteel>
-      <Steel>20</Steel>
-    </butcherProducts>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Plasteel>10</Plasteel>
+            <Steel>20</Steel>
+        </butcherProducts>
 		
 		<tools>
 			<li>
@@ -379,7 +443,7 @@
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>
 			</li>
-		</tools>    
+		</tools>
 		<race>
 			<nameGenerator>SnagglesynthNameGen</nameGenerator>
 			<thinkTreeMain>Humanlike</thinkTreeMain>
@@ -395,7 +459,7 @@
 			<foodType>None</foodType>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<canBePredatorPrey>false</canBePredatorPrey>
-			<litterSizeCurve>
+			<litterSizeCurve Inherit="False">
 				<points>
 					<li>(0.5, 0)</li>
 					<li>(1, 1)</li>
@@ -403,19 +467,19 @@
 					<li>(3.5, 0)</li>
 				</points>
 			</litterSizeCurve>
-			<lifeStageAges>
-			<li>
-			<def>Life_SnaggleSynth</def>
-			<minAge>0</minAge>
-			<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
-			<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
-			<soundCall>Pawn_Mech_Scyther_Call</soundCall>
-			</li>
+			<lifeStageAges Inherit="False">
+				<li>
+					<def>Life_SnaggleSynth</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+					<soundCall>Pawn_Mech_Scyther_Call</soundCall>
+				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-			
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
-			<ageGenerationCurve>
+			<ageGenerationCurve Inherit="False">
 				<points>
 					<li>(18,0)</li>
 					<li>(19,100)</li>
@@ -427,10 +491,11 @@
 					<li>(100,0)</li>
 				</points>
 			</ageGenerationCurve>
-			<hediffGiverSets>
+			<hediffGiverSets Inherit="False">
 				<li>OrganicStandard</li>
 				<li>Human</li>
-			</hediffGiverSets><renderTree>Humanlike</renderTree>
+			</hediffGiverSets>
+			<renderTree>Humanlike</renderTree>
 		</race>
 	</AlienRace.ThingDef_AlienRace>
 </Defs>

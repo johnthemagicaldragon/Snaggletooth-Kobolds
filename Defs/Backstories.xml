@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <AlienRace.AlienBackstoryDef>
@@ -28,6 +28,9 @@
       <Shooting>8</Shooting>
       <Melee>9</Melee>
     </skillGains>
+    <shuffleable>
+      true
+    </shuffleable>
   </AlienRace.AlienBackstoryDef>
   
     <AlienRace.AlienBackstoryDef>
@@ -57,6 +60,9 @@
       <Shooting>18</Shooting>
       <Melee>11</Melee>
     </skillGains>
+    <shuffleable>
+      true
+    </shuffleable>
   </AlienRace.AlienBackstoryDef>
   
     <AlienRace.AlienBackstoryDef>
@@ -86,6 +92,9 @@
       <Shooting>-4</Shooting>
       <Melee>-3</Melee>
     </skillGains>
+    <shuffleable>
+      true
+    </shuffleable>
   </AlienRace.AlienBackstoryDef>
 
   <AlienRace.AlienBackstoryDef>
@@ -111,6 +120,9 @@
       <Shooting>-3</Shooting>
       <Melee>-3</Melee>
     </skillGains>
+    <shuffleable>
+      true
+    </shuffleable>
   </AlienRace.AlienBackstoryDef>
 
 </Defs>
