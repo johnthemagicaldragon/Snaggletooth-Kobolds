@@ -14,7 +14,7 @@ Do note that I don't intend on making this a daily pattern forever, I am just wo
 
 ------------------------------------------------------------------------------------
 
-CURRENT PROGRESS SUMMARY (Day 6):
+CURRENT PROGRESS SUMMARY (Day 6 / Final Porting Progress):
 
 Previously Fixed / Added:
 
