@@ -1,7 +1,9 @@
 GITHUB UP-TO-DATE STATUS: 🟩
 
 Green: Main is up to date!
+
 Yellow: Final prepwork being done, push will occur when finished
+
 Red: Main is currently behind Staging/Development
 
 Hi! Thanks for visiting my Github (or the file structure, either works)
