@@ -14,19 +14,6 @@ Do note that I don't intend on making this a daily pattern forever, I am just wo
 
 ------------------------------------------------------------------------------------
 
-CURRENT PROGRESS SUMMARY (Day 6 / Final Porting Progress):
+Recent Changes:
 
-Previously Fixed / Added:
-
-- Startup Errors (Days 1-3)
-- Github Page (Day 3)
-- Rendering nullReferenceException involving synths (Day 4)
-- West being flipped (Day 5)
-
-Fixed: 
-- Body Addons not rendering
-- Removed (most of) the Spaghetti structure from the files I had to change (I likely missed some)
-- Snaggletooth Heads
-
-Current task(s) remaining:
-- Currently? None.
+Fixed bug where snaggletooth horns float (whoops)
